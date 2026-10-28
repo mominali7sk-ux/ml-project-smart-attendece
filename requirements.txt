@@ -1,27 +1,30 @@
-# Web application
-streamlit==1.50.0
+#WEB APP
+streamlit
 
-# Utilities
-numpy<2.0
+#utilities
+numpy
 pandas
 
-# Face recognition
+#FACE RECOGNITION
 scikit-learn
 dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
-setuptools==69.5.1
+setuptools<70.0.0
 
-# Database and authentication
+
+# DATABASE & AUTHENTICATION
 supabase
 bcrypt
 
-# QR codes
+
+#QR CODE
 segno
 
-# Image processing
+#IMAGE PROCESSING
 pillow
 
-# Voice recognition
+
+
+#VOICE RECOGNITION
 librosa
 resemblyzer
-webrtcvad-wheels
